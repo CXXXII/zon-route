@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="normolize.min.css" />
+  <link rel="stylesheet" href="reset.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <div class="header">
+      <div class="header__first">
+        <img src="icons/logo_short.svg" alt="logo" />
+        <p class="title">HR</p>
+        <a href="#" class="exit-button"><button>Выйти</button></a>
+      </div>
+      <nav>
+        <ul class="tabs">
+          <li class="tab active">
+            <a href="#">Все</a>
+            <img src="icons/line_tab_active.svg" alt="active_tab"
+              class="active_line" />
+          </li>
+          <li class="tab"><a href="#">Ожидают загрузки</a></li>
+          <li class="tab"><a href="#">Загружены кандидатом</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content">
+      <aside class="side-bar-menu">
+        <form action="#" class="search-filter-bar">
+          <div class="search-bar">
+            <img src="icons/ic_m_search.svg" alt="search" />
+            <input type="text" placeholder="Поиск" class="search-input" />
+          </div>
+          <button class="filter">
+            <img src="/icons/ic_m_filter.svg" alt="filter" class="filter-img" />
+          </button>
+        </form>
+        <div class="cv-list">
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">
+                Константиновский Константиновый Константинович
+              </div>
+            </div>
+            <div class="info">
+              <div class="status warning">
+                <img src="icons/yell_s_dot.svg" alt="" />
+                <div class="status-name">Ожидают загрузки</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">Свиридова Анна Анатольевна</div>
+            </div>
+            <div class="info">
+              <div class="status warning">
+                <img src="icons/yell_s_dot.svg" alt="" />
+                <div class="status-name">Ожидают загрузки</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">Константиновский Константин Игоревич</div>
+            </div>
+            <div class="info">
+              <div class="status success">
+                <img src="icons/gree_s_dot.svg" alt="" />
+                <div class="status-name">Загружена кандидатом</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">Александровский Антон Дмитриевич</div>
+            </div>
+            <div class="info">
+              <div class="status success">
+                <img src="icons/gree_s_dot.svg" alt="" />
+                <div class="status-name">Загружена кандидатом</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">Константиновский Константин Олегович</div>
+            </div>
+            <div class="info">
+              <div class="status success">
+                <img src="icons/gree_s_dot.svg" alt="" />
+                <div class="status-name">Загружена кандидатом</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">Темошевская Александра Ивановна</div>
+            </div>
+            <div class="info">
+              <div class="status success">
+                <img src="icons/gree_s_dot.svg" alt="" />
+                <div class="status-name">Загружена кандидатом</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+          <div class="cv">
+            <div class="cv-name-wrapper">
+              <div class="cv-name">Степаненко Галина Федоровна</div>
+            </div>
+            <div class="info">
+              <div class="status warning">
+                <img src="icons/yell_s_dot.svg" alt="" />
+                <div class="status-name">Ожидают загрузки</div>
+              </div>
+              <div class="date">
+                <img src="icons/ic_s_calendar.svg" alt="calendar" />
+                <div class="time-date">12.02.2022</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <main class="full-cv">
+        <div class="full-cv-info">
+          <div class="name-and-status">
+            <h4 class="full-cv-name">Константиновский Константин Игоревич</h4>
+            <div class="status success">
+              <img src="icons/gree_s_dot.svg" alt="" />
+              <div class="status-name">Загружена кандидатом</div>
+            </div>
+          </div>
+          <div class="table-info">
+            <div class="column border-column">
+              <div class="column-elements heading">
+                <p>Заявка:</p>
+                <p>Логин:</p>
+              </div>
+              <div class="column-elements">
+                <p>HR-48160</p>
+                <p>kkonstantinovski</p>
+              </div>
+            </div>
+            <div class="column border-column">
+              <div class="column-elements heading">
+                <p>Дата выхода:</p>
+                <p>Дата оформления:</p>
+              </div>
+              <div class="column-elements">
+                <p>18.08.2021</p>
+                <p>18.08.2021</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="column-elements heading">
+                <p>Статус ФП:</p>
+                <p>Статус УЗ:</p>
+              </div>
+              <div class="column-elements ">
+                <div class="full-cv-status">
+                  <img src="icons/gree_s_dot.svg" alt="success">
+                  <p>Обновлено</p>
+                </div>
+                <div class="full-cv-status">
+                  <img src="icons/yell_s_dot.svg" alt="warning">
+                  <p>Активна</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="personal-info">
+          <h5 class="personal-info-title">Личная информация</h5>
+          <div class="bio-block">
+            <div class="bio-block-fraction">
+              <div class="bio-block-title">Фамилия</div>
+              <input class="bio-block-input" type="text"
+              placeholder="Константиновский">
+            </div>
+            <div class="bio-block-fraction">
+              <div class="bio-block-title">Имя</div>
+              <input type="text" class="bio-block-input" placeholder="Константин">
+            </div>
+            <div class="bio-block-fraction">
+              <div class="bio-block-title">Отчество</div>
+              <input type="text" class="bio-block-input" placeholder="Игоревич">
+            </div>
+            <div class="bio-block-fraction">
+              <div class="bio-block-title">Дата рождения</div>
+              <input type="date" class="bio-block-input birth-date" placeholder="09.02.1998"
+              onfocus="(this.type = 'date', this.class = 'bio-block-input' )">
+            </div>
+            <div class="bio-block-fraction">
+              <div class="bio-block-title ">Гражданство</div>
+              <select class="bio-block-input citizenship-option" name="citizenship-choise" id="citizenship-choise">
+                <option value="other">Российская Федерация</option>
+              </select>
+              <!-- <input type="number" class="bio-block-input citizenship" placeholder="Российская Федерация"> -->
+            </div>
+            <div class="bio-block-fraction">
+              <div class="bio-block-title ">Пол</div>
+              <div class="choose-gender">
+                <div class="gender">
+                  <input type="radio"  name="gender" value="Женский">
+                  <p>Женский</p>
+                </div>
+                <div class="gender">
+                  <input type="radio" name="gender" value="Мужской">
+                  <p>Мужской</p>
+                </div>
+              </div>
+            </div>
+            <div class="living-place">
+              <div class="bio-block-title living-place-title">Город проживания</div>
+              <input type="search" class="bio-block-input living-place-search" placeholder="Санкт-Петербург">
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+  </div>
+  </div>
+  </main>
+  </div>
+  </div>
+</body>
+
+</html>
